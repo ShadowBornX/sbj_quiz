@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('image/SJB.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Esto mantiene la proporción original */
+    margin-top: 10px; //* Espaciado entre la imagen y el título */
+}
+
+
+.title-description {
+    flex-grow: 1; /* Hace que la descripción ocupe todo el espacio restante */
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    text-align: center;
+    color: #777; /* Color de la descripción */
+}
+
+a {
+    text-decoration-color: grey; /* Cambia el color del subrayado del enlace */
+}
+
+a:hover {
+    text-decoration-color: rgb(168, 73, 73); /* Cambia el color del subrayado al pasar el mouse sobre el enlace */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(168, 73, 73);
+}
+
